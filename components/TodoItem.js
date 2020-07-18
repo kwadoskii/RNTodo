@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     listholder: {
         flexDirection: 'row-reverse',
         justifyContent: "space-between",
+        alignItems: "center",
         paddingVertical: 20,
         paddingHorizontal: 15,
         marginTop: 18,
@@ -24,10 +25,11 @@ const styles = StyleSheet.create({
         backgroundColor: '#f5f9ea',
         borderWidth: 1,
         borderStyle: 'dashed',
-        borderRadius: 10,
+        borderRadius: 10
     },
     text: {
         marginRight: 12,
-        fontSize: 25
+        fontSize: 25,
+        color: "#333"
     }
 });

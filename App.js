@@ -27,7 +27,7 @@ export default function App() {
                 ];
             });
         } else{
-            Alert.alert('opps!', 'Todo chars must be over 3 chars', [{text: 'Noted', onPress: () => console.log('Ask me later pressed')}]);
+            Alert.alert('opps!', 'Todo chars must be over 3 chars', [{text: 'Noted'}]);
         }
     }
 

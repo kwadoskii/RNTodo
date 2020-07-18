@@ -22,7 +22,8 @@ export default function AddTodo({submitHandler}) {
                 onPress={() => {
                     submitHandler(text)
                     setText('')
-                    }}
+                    }
+                }
             />
         </View>
     )
@@ -37,5 +38,4 @@ const styles = StyleSheet.create({
         borderBottomColor: "#ddd",
         fontSize: 30
     }
-})
-
+});
